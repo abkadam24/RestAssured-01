@@ -20,7 +20,7 @@ public class E_Commerce {
 		RestAssured.baseURI =baseurl;
 		
 	String 	requestbody = "{\n"
-			+ "	\"email\": \"abhishek24442@gmail.com\",\n"
+			+ "	\"email\": \"Abhi991@gmail.com\",\n"
 			+ "	\"password\": \"krishna@123\"\n"
 			+ "}";
 	
@@ -44,14 +44,16 @@ public class E_Commerce {
 	System.out.println(message);
 	
 	
-	}
+}
+	
+	
 	@Test(priority = 1)
 	public void Login()
 	{
 		RestAssured.baseURI =baseurl;
 		
 	String 	requestbody = "{\n"
-			+ "	\"email\": \"abhishek24442@gmail.com\",\n"
+			+ "	\"email\": \"Abhi991@gmail.com\",\n"
 			+ "	\"password\": \"krishna@123\"\n"
 			+ "}";
 	
@@ -73,6 +75,5 @@ public class E_Commerce {
 	//nw i have to fetch the id
 	accessToken = js.get("accessToken");
 	System.out.println(accessToken);
-
 }
 }

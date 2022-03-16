@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestTesting.DiffNG">
+      <class name="RestTesting.E_Commerce">
         <methods>
-          <include name="testcase1"/>
-          <include name="AT"/>
-          <include name="BT"/>
+          <include name="signup"/>
         </methods>
-      </class> <!-- RestTesting.DiffNG -->
+      </class> <!-- RestTesting.E_Commerce -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
