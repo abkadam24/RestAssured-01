@@ -14,7 +14,7 @@ public class E_Commerce {
 	public static String baseurl = "https://ecommerceservice.herokuapp.com";
 	public static String message;
 	public static String accessToken;
-	@Test(priority = 0)
+	@Test(priority = 0, enabled = false)
 	public void signup()
 	{
 		RestAssured.baseURI =baseurl;
