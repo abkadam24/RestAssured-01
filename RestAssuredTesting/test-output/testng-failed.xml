@@ -5,7 +5,8 @@
     <classes>
       <class name="RestTesting.E_Commerce">
         <methods>
-          <include name="signup"/>
+          <include name="delete"/>
+          <include name="getallusers"/>
         </methods>
       </class> <!-- RestTesting.E_Commerce -->
     </classes>

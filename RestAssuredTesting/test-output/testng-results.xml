@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-16T23:03:33 IST" name="Default suite" finished-at="2022-03-16T23:03:48 IST" duration-ms="14842">
+  <suite started-at="2022-03-17T00:40:56 IST" name="Suite" finished-at="2022-03-17T00:41:08 IST" duration-ms="12296">
     <groups>
     </groups>
-    <test started-at="2022-03-16T23:03:33 IST" name="Default test" finished-at="2022-03-16T23:03:48 IST" duration-ms="14842">
+    <test started-at="2022-03-17T00:40:56 IST" name="Test" finished-at="2022-03-17T00:41:08 IST" duration-ms="12296">
       <class name="RestTesting.E_Commerce">
-        <test-method signature="signup()[pri:0, instance:RestTesting.E_Commerce@272ed83b]" started-at="2022-03-16T23:03:33 IST" name="signup" finished-at="2022-03-16T23:03:44 IST" duration-ms="10286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signup -->
-        <test-method signature="Login()[pri:1, instance:RestTesting.E_Commerce@272ed83b]" started-at="2022-03-16T23:03:44 IST" name="Login" finished-at="2022-03-16T23:03:48 IST" duration-ms="4511" status="PASS">
+        <test-method signature="Login()[pri:1, instance:RestTesting.E_Commerce@cad498c]" started-at="2022-03-17T00:40:56 IST" name="Login" finished-at="2022-03-17T00:41:02 IST" duration-ms="5980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
+        <test-method signature="getallusers()[pri:2, instance:RestTesting.E_Commerce@cad498c]" started-at="2022-03-17T00:41:02 IST" name="getallusers" finished-at="2022-03-17T00:41:05 IST" duration-ms="2730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallusers -->
+        <test-method signature="delete()[pri:3, instance:RestTesting.E_Commerce@cad498c]" started-at="2022-03-17T00:41:05 IST" name="delete" finished-at="2022-03-17T00:41:06 IST" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
       </class> <!-- RestTesting.E_Commerce -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="RestTesting.Trello">
+        <test-method signature="createBoard()[pri:0, instance:RestTesting.Trello@6bedbc4d]" started-at="2022-03-17T00:41:06 IST" name="createBoard" finished-at="2022-03-17T00:41:07 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method signature="getBoard()[pri:1, instance:RestTesting.Trello@6bedbc4d]" started-at="2022-03-17T00:41:07 IST" name="getBoard" finished-at="2022-03-17T00:41:08 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoard -->
+        <test-method signature="DeleteBoard()[pri:2, instance:RestTesting.Trello@6bedbc4d]" started-at="2022-03-17T00:41:08 IST" name="DeleteBoard" finished-at="2022-03-17T00:41:08 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBoard -->
+      </class> <!-- RestTesting.Trello -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
