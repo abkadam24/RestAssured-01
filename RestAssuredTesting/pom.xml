@@ -13,7 +13,7 @@
      <version>3.0.0-M5</version>
      <configuration>
      <includes>
-     <exclude>**/*E_Commerce.java</exclude>
+     <exclude>**/*Trello.java</exclude>
      </includes>
      </configuration>
     </plugin>
