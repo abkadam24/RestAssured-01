@@ -10,6 +10,8 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 public class E_Commerce {
+	
+	
 
 	public static String baseurl = "https://ecommerceservice.herokuapp.com";
 	public static String message;
@@ -128,5 +130,6 @@ public class E_Commerce {
 	message = js.get("message");
 	System.out.println(message);
 	System.out.println("Folllowing user got deleted: "+emailId);
+	System.out.println("Abhishek1");
 }
 }
